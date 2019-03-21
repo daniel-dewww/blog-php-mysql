@@ -1,0 +1,73 @@
+/*FUENTES*/
+@font-face{
+    font-family: "fajala";
+    src: url(../fonts/fuente.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*GENERALES*/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif, Helvetica, Arial;
+    text-decoration: none;
+    padding:0, 10px;
+   
+}
+
+header {
+    background: #000;
+    width: 100%;
+    height: 80px; 
+  
+
+}
+.logo{
+    position:absolute;
+    top: 15px;
+    left: 15px;
+     color: #fff;
+
+}
+nav{
+    position: absolute;
+    right: 20px;
+     top: 15px;
+     
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 5px;
+}
+a{
+    list-style: none;
+     color: #fff;   
+}
+section{
+    width:100%;
+    height: 100vh;
+    display: grid;
+}
+.card{
+background: #eee;
+width: 250px;
+height: 150px;
+position: absolute;
+left: 50%;
+transition: translate(-50%,50%);
+}
+.form{
+text-align : center;
+padding: 5px;  
+}
+input:[type='submit']{
+    padding-top: 3px;
+}
+
+footer{
+    background: #ab79ab;
+    width: 100%;
+    text-align:center;
+  }
